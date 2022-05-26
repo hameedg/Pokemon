@@ -1,0 +1,66 @@
+.App{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.TitleSection
+{
+   background-color: rgb(153, 60, 240);
+   width: 100%;
+   height: 300px;
+   display: flex;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+
+
+}
+.TitleSection input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(91, 8, 107);
+    font-size: 18px;
+    padding-left: 10px;
+}
+.TitleSection button{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(34, 4, 63);
+}
+
+.TitleSection button:hover{
+    cursor: pointer;
+}
+.DisplaySection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
