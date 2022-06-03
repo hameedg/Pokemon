@@ -21,7 +21,7 @@ function App() {
                         
     setpokemon({
        
-      name:pokemonName,
+      name:response.data.name,
       BaseExperience: response.data.base_experience,
       img: response.data.sprites.front_default,
       weight:response.data.weight,
